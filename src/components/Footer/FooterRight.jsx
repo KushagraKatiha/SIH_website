@@ -1,7 +1,6 @@
 import React from 'react'
-import List from '../List'
+import List from '../List/List'
 import { FaPhoneAlt,FaGithubSquare,FaLinkedin,FaGoogle } from "react-icons/fa";
-import { SiFlipkart } from "react-icons/si";
 import { IoMail } from "react-icons/io5";
 
 function FooterRight() {
@@ -12,7 +11,7 @@ function FooterRight() {
         "Sonaly Jain",
         "Astha Pandey",
         "Saiyam Jain",
-        "Arpit Jain"
+        "Arpit Jain"    
     ]
 
     const contacts = [
