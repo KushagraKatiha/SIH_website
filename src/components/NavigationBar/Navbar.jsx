@@ -13,14 +13,17 @@ function Navbar({ logo, link1, link2, link3}) {
 
   function isHome() {
     if (window.location.pathname === '/') {
-      return true;
+      return 'home';
+    }
+    if(window.location.pathname === '/dashboard'){
+      return 'dashboard'
     }
     return false;
   }
 
   return (
     <>
-      <nav className={`flex font-display w-full items-center  ${isHome()? 'fixed h-20 backdrop-blur-sm backdrop-brightness-100 top-0': 'h-14 bg-blue-950 mb-7'}`}>
+      <nav className={`flex font-display w-full items-center  ${isHome()=="home"? 'fixed h-20 backdrop-blur-sm backdrop-brightness-100 top-0':isHome()=="dashboard"?'h-14 bg-blue-950' : 'h-14 bg-blue-950 mb-7'}`}>
           <div className="flex items-center justify-between w-full">
               <img src={logo} alt="logo" className="w-8 h-8 ml-10 rounded-full relative left-5"/>
               <div className="flex gap-16 items-center">
@@ -33,7 +36,7 @@ function Navbar({ logo, link1, link2, link3}) {
             <FaUser onClick={toogleCard} className={`cursor-pointer relative right-5 ${showCard?'hidden': 'visible'} text-white hover:text-blue-300 mr-10 text-2xl`}/>
             <ImCross onClick={toogleCard} className={`cursor-pointer relative right-5 ${showCard?'visible': 'hidden'} text-white hover:text-blue-300 mr-10 text-2xl`}/>
             <div className= {` bg-white leading-10 text-black ${showCard?'visible':'hidden'} font-bold px-5 py-2 absolute ${isHome()?"top-16 right-2": "top-14 right-1"} rounded-sm`}>
-              <Link to="#" className="cursor-pointer hover:text-zinc-600">My Profile</Link>
+              <Link to="/dashboard" className="cursor-pointer hover:text-zinc-600">My Profile</Link>
               <br />
               <Link to="/login" className="cursor-pointer hover:text-zinc-600">Sign In</Link>
               <br />
