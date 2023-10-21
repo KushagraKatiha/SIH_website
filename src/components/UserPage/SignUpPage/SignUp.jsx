@@ -16,28 +16,26 @@ function SignUp() {
             </div>
                 <h2 className='font-bold  font-display text-2xl tracking-[1rem] text-green-500'>Create your Account</h2>
 
-            <div className='flex flex-col max-h-[50%] max-w-[70%] min-w-[40%] px-28 py-10 rounded-2xl gap-4 bg-blue-950'>
+            <div className='flex flex-col max-h-[50%] max-w-[70%] min-w-[40%] px-28 py-8 rounded-2xl gap-8 bg-blue-950'>
                 <form className='flex flex-col gap-3 text-white'>
                     <label className='font-bold text-xl' htmlFor="name">Name: </label>
                     <input className='bg-slate-200 rounded-md border-none text-black pl-3 py-1 font-semibold' type="text" />
                 
                     <label className='font-bold text-xl' htmlFor="name">Email: </label>
-                    <input className='bg-slate-200 rounded-md border-none text-white pl-3 py-1 font-semibold' type="email" />
+                    <input className='bg-slate-200 rounded-md border-none text-black pl-3 py-1 font-semibold' type="email" />
                     
                     <label className='font-bold text-xl' htmlFor="name">Password: </label>
-                    <input className='bg-slate-200 rounded-md border-none text-white pl-3 py-1 font-semibold' type="password" />
+                    <input className='bg-slate-200 rounded-md border-none  text-black pl-3 py-1 font-semibold' type="password" />
 
                     <label className='font-bold text-xl' htmlFor="name">Confirm Password: </label>
-                    <input className='bg-slate-200 rounded-md border-none text-white pl-3 py-1 font-semibold' type="text" />
+                    <input className='bg-slate-200 rounded-md border-none  text-black pl-3 py-1 font-semibold' type="text" />
 
                     <label className='font-bold text-xl' htmlFor="name">Device Id: </label>
-                    <input className='bg-slate-200 rounded-md border-none text-white pl-3 py-1 font-semibold'   type="text" />
+                    <input className='bg-slate-200 rounded-md border-none  text-black pl-3 py-1 font-semibold'   type="text" />
                 </form>
 
                 <button className='py-2 rounded-md font-bold tracking-[.5rem] bg-blue-800 hover:bg-blue-500'>Create Account</button>
             </div>
-
-
         </div>
     
     
