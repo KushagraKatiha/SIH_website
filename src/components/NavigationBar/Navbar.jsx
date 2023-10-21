@@ -28,13 +28,10 @@ function Navbar({ logo, link1, link2, link3}) {
                     <li><Link to="/" className="text-[#f2f2f2] font-bold text-lg hover:text-blue-300 ">{link1}</Link></li>
                     <li><Link to="#" className="text-[#f2f2f2] font-bold text-lg hover:text-blue-300 ">{link2}</Link></li>
                     <li><Link to="#" className="text-[#f2f2f2] font-bold text-lg hover:text-blue-300 ">{link3}</Link></li>
-                      {/* <li><a className="text-[#f2f2f2] font-bold text-lg hover:text-blue-300 " href="#">{link1}</a></li>
-                      <li><a className="text-[#f2f2f2] font-bold text-lg hover:text-blue-300 " href="#">{link2}</a></li>
-                      <li><a className="text-[#f2f2f2] font-bold text-lg hover:text-blue-300 " href="#">{link3}</a></li> */}
                   </ul>
               </div>
-            <FaUser onClick={toogleCard} className={`cursor-pointer relative right-5 ${showCard?'hidden': 'visible'} text-white mr-10 text-2xl`}/>
-            <ImCross onClick={toogleCard} className={`cursor-pointer relative right-5 ${showCard?'visible': 'hidden'} text-white mr-10 text-2xl`}/>
+            <FaUser onClick={toogleCard} className={`cursor-pointer relative right-5 ${showCard?'hidden': 'visible'} text-white hover:text-blue-300 mr-10 text-2xl`}/>
+            <ImCross onClick={toogleCard} className={`cursor-pointer relative right-5 ${showCard?'visible': 'hidden'} text-white hover:text-blue-300 mr-10 text-2xl`}/>
             <div className= {` bg-white leading-10 text-black ${showCard?'visible':'hidden'} font-bold px-5 py-2 absolute ${isHome()?"top-16 right-2": "top-14 right-1"} rounded-sm`}>
               <Link to="#" className="cursor-pointer hover:text-zinc-600">My Profile</Link>
               <br />
