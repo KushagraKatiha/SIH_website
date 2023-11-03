@@ -4,7 +4,7 @@ import Navbar from '../../NavigationBar/Navbar'
 function Login() {
   return (
     <>
-        <Navbar logo="/assets/image/favicon_io/android-chrome-192x192.png" link1="Home" link2="Contact Us" link3="About" />
+        <Navbar logo="/assets/image/banner_img2.jpeg" link1="Home" link2="Contact Us" link3="About" />
         <div className='text-white px-8 pt-3 flex pb-3 flex-col items-center gap-7 '>
 
             <div className=' font-display flex flex-col items-center'>

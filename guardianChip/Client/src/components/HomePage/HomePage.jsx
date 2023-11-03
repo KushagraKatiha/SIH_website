@@ -16,7 +16,7 @@ function HomePage() {
 
     return (
         <>
-            <Navbar logo="/assets/image/favicon_io/android-chrome-192x192.png" link1="Home" link2="Contact Us" link3="About" />
+            <Navbar logo="/assets/image/banner_img2.jpeg" link1="Home" link2="Contact Us" link3="About" />
             {/* <Navbar2/> */}
             <Hero head1='The' head2=' Guardian' head3=' Chip' slogan='-Your Safety, Our Priority' content={content} img="/assets/image/WhatsApp Image 2023-10-02 at 11.06.03 PM.jpeg" />
             <Slider imgs={imgs} />

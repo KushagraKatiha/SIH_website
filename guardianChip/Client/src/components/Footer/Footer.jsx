@@ -6,9 +6,9 @@ function Footer() {
   const heading='The Guardian Chip'
   const slogan='Your Safety, Our Priority'
   const details = 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod est rerum optio doloribus ratione ex quo at blanditiis enim sit!'
-  const img1 = '/assets/image/favicon_io/android-chrome-192x192.png'
-  const img2 = '/assets/image/favicon_io/android-chrome-192x192.png'
-  const img3 = '/assets/image/favicon_io/android-chrome-192x192.png'
+  const img1 = '/assets/image/banner_img2.jpeg'
+  const img2 = '/assets/image/banner_img2.jpeg'
+  const img3 = '/assets/image/banner_img2.jpeg'
   const copyright = 'Copyright @2023 All rights reserved'
 
   return (
