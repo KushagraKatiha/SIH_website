@@ -4,8 +4,8 @@ import Navbar from '../../NavigationBar/Navbar'
 function Login() {
   return (
     <>
-        <Navbar logo="/assets/image/banner_img2.jpeg" link1="Home" link2="Contact Us" link3="About" />
-        <div className='text-white px-8 pt-3 flex pb-3 flex-col items-center gap-7 '>
+        <Navbar logo="/assets/image/banner_img2.jpeg" link1="Home" link2="Explore" link3="About" />
+        <div className='text-white px-8 pt-3 flex pb-3 flex-col items-center gap-7'>
 
             <div className=' font-display flex flex-col items-center'>
                 <h1 className='font-extrabold text-orange-500 text-4xl'>The Guardian Chip</h1>
@@ -25,11 +25,7 @@ function Login() {
 
                 <button className='py-2 rounded-md font-bold tracking-[.5rem] bg-blue-800 hover:bg-blue-500'>Login</button>
             </div>
-
-
         </div>
-    
-    
     </>
   )
 }

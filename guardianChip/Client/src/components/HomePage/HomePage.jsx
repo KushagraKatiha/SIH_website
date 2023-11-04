@@ -16,8 +16,7 @@ function HomePage() {
 
     return (
         <>
-            <Navbar logo="/assets/image/banner_img2.jpeg" link1="Home" link2="Contact Us" link3="About" />
-            {/* <Navbar2/> */}
+            <Navbar logo="/assets/image/banner_img2.jpeg" link1="Home" link2="Explore" link3="About" />
             <Hero head1='The' head2=' Guardian' head3=' Chip' slogan='-Your Safety, Our Priority' content={content} img="/assets/image/WhatsApp Image 2023-10-02 at 11.06.03 PM.jpeg" />
             <Slider imgs={imgs} />
             <Footer />

@@ -3,7 +3,7 @@ import React from 'react'
 export default function Hero({head1,head2,head3, slogan, content, img}) {
   return (
     <>
-      <div className="flex gap-2 p-5 justify-around mt-48 mb-36 items-center font-display">
+      <div className="flex gap-2 p-5 justify-around mt-52 mb-48 items-center font-display">
           <div className="w-1/2 text-white">
               <h1 className="text-5xl font-bold"><span className="text-orange-500">{head1}</span>{head2}<span className="text-green-500">{head3}</span></h1>
               <br/>

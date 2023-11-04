@@ -12,8 +12,8 @@ function Slider({imgs}) {
 
   return (
     <> 
-        <div className="container mt-5">
-            <div className="bg-[#141414] text-[#999999] border-[#3d3d3d] border-b-[2px] pt-4 pl-24 pr-24">
+        <div className="container max-w-full">
+            <div className="bg-[#141414] text-[#999999] border-[#3d3d3d] border-b-[4px] pt-4 pl-24 pr-24">
                 <div className="flex justify-between">
                     {imgs.map((images, index)=>(  
                          <h1 onClick={()=>handleButtonClick(index)} className={`text-lg text-center hover:text-white cursor-pointer ${(selectedImageIndex===index)?'border-red-500 border-b-4':'0'} pl-20 pr-20 p-10 font-medium`} key={index}>Heading {index + 1}</h1>                
